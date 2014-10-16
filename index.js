@@ -260,6 +260,10 @@ function MDChangelog(opts) {
         }
         // populate issue info
         if (res.body.title) {
+          issues[item.key].labels = issues[item.key].labels || {};
+          res.body.labels.forEach(function(label){
+            issues[item.key].labels[label.name] = true;
+          });
           issues[item.key].title = res.body.title;
           issues[item.key].state = res.body.state;
           issues[item.key].created_at = res.body.created_at;
