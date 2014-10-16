@@ -22,8 +22,6 @@ gulp.task('default', function() {
   console.log('gulp!');
 });
 
-gulp.task('lint', ['eslint', 'js-beautify'], function() {});
-
 process.on('exit', function() {
   if (gulp.fail) {
     // return non-zero exit code
