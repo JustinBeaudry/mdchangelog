@@ -14,12 +14,14 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.7.0",
-    "moment-timezone": "^0.2.2",
-    "minimist": "^0.1.0",
-    "ejs": "^1.0.0",
     "chaps": "^2.0.0",
-    "semver": "^2.3.0",
-    "progress": "^1.1.8"
+    "deap": "^1.0.0",
+    "ejs": "^1.0.0",
+    "minimist": "^0.1.0",
+    "mktemp": "^0.3.5",
+    "moment-timezone": "^0.2.2",
+    "progress": "^1.1.8",
+    "semver": "^2.3.0"
   },
   "devDependencies": {
     "gulp": "^3.6.2",
