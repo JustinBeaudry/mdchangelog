@@ -48,6 +48,7 @@ if(!process.env.MDCHANGELOG_TOKEN){
 }
 var changelog = new MDchangelog(argv);
 changelog(function(err, log){
+  console.log(err, log);
   if(err) {
     util.error('error: ' + err);
     process.exit(1);
