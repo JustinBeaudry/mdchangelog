@@ -30,11 +30,12 @@ Options:
 --reverse-issues reverse the order of issues
 --order-milestones <order> order issues by one of [number,opened_at,updated_at,title,semver]
 --reverse-milestones reverse the ordering of milestones
+--dependents run ndchangelog on dependent issues in other repos (only compatible with semver)
 --remote <github/repo> override git config remote repo to pull issues from
---stdout send output to stdout instead of writing to file (implies regenerate)
+--stdout send output to stdout instead of writing to file (implies regenerate
 ```
 
 ## Output
 
 Here is an example mdchangelog output for the [hapi](https://github.com/spumko/hapi) git history:
-https://gist.github.com/diffsky/532f7ea5fcba2cb1c0d4/8e20af41fd94cd1f642e60f9074013d9ecac25ce
+https://gist.github.com/diffsky/dcaf56962b39fa6e0a9c
