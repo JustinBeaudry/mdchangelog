@@ -1,10 +1,10 @@
 {
   "name": "mdchangelog",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "description": "markdown github changelog history",
   "main": "index.js",
   "scripts": {
-    "test": "alias gulp=./node_modules/gulp/bin/gulp.js;gulp eslint && gulp beautify && ./bin/mdchangelog -h"
+    "test": "gulp eslint && gulp beautify && ./bin/mdchangelog -h"
   },
   "bin": {
     "mdchangelog": "bin/mdchangelog"
@@ -14,12 +14,12 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
-    "chaps": "^2.0.0",
     "deap": "^1.0.0",
     "minimist": "^1.1.0",
     "mktemp": "^0.3.5",
-    "moment-timezone": "^0.2.5",
+    "moment": "^2.9.0",
     "progress": "^1.1.8",
+    "request": "^2.53.0",
     "semver": "^4.1.0"
   },
   "devDependencies": {
