@@ -1,5 +1,5 @@
 # 2015-07-22
-67 commits against 22 issues, over a year [`6b1b651`](https://github.com/creativelive/mdchangelog/commit/6b1b651)⎆[`886ba42`](https://github.com/creativelive/mdchangelog/commit/886ba42)
+68 commits against 22 issues, over a year [`ffc6c65`](https://github.com/creativelive/mdchangelog/commit/ffc6c65)⎆[`886ba42`](https://github.com/creativelive/mdchangelog/commit/886ba42)
 
 ## [**0.16.0**](https://github.com/creativelive/mdchangelog/issues?milestone=6&state=open)
 - [**#17**](https://github.com/creativelive/mdchangelog/issues/17) sample issue 33
@@ -23,8 +23,8 @@
 - [**#8**](https://github.com/creativelive/mdchangelog/issues/8) Timeout causes script to throw
 
 ##Issues
+- [**#31**](https://github.com/creativelive/mdchangelog/issues/31) An option to escape some characters in commit messages
 - [**#21**](https://github.com/creativelive/mdchangelog/issues/21) Import changelog from another project
-- [**#30**](https://github.com/creativelive/mdchangelog/issues/30) Consider adding a flag to restrict dependent repos to the same github org
 - [**#28**](https://github.com/creativelive/mdchangelog/issues/28) dependent repos cloned and parsed multiple times
 - [**#29**](https://github.com/creativelive/mdchangelog/issues/29) add debug output when semver matching fails
 - [**#27**](https://github.com/creativelive/mdchangelog/issues/27) flag to include only *closed* milestones
