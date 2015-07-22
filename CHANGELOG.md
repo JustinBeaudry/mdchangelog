@@ -1,5 +1,5 @@
-# 2014-09-17
-46 commits against 15 issues, over 5 months [`e8399e3`](https://github.com/creativelive/mdchangelog/commit/e8399e3)⎆[`886ba42`](https://github.com/creativelive/mdchangelog/commit/886ba42)
+# 2015-07-22
+67 commits against 22 issues, over a year [`6b1b651`](https://github.com/creativelive/mdchangelog/commit/6b1b651)⎆[`886ba42`](https://github.com/creativelive/mdchangelog/commit/886ba42)
 
 ## [**0.16.0**](https://github.com/creativelive/mdchangelog/issues?milestone=6&state=open)
 - [**#17**](https://github.com/creativelive/mdchangelog/issues/17) sample issue 33
@@ -22,10 +22,15 @@
 - [**#9**](https://github.com/creativelive/mdchangelog/issues/9) Override mode
 - [**#8**](https://github.com/creativelive/mdchangelog/issues/8) Timeout causes script to throw
 
-
-## Issues
+##Issues
+- [**#21**](https://github.com/creativelive/mdchangelog/issues/21) Import changelog from another project
+- [**#30**](https://github.com/creativelive/mdchangelog/issues/30) Consider adding a flag to restrict dependent repos to the same github org
+- [**#28**](https://github.com/creativelive/mdchangelog/issues/28) dependent repos cloned and parsed multiple times
+- [**#29**](https://github.com/creativelive/mdchangelog/issues/29) add debug output when semver matching fails
+- [**#27**](https://github.com/creativelive/mdchangelog/issues/27) flag to include only *closed* milestones
+- [**#26**](https://github.com/creativelive/mdchangelog/issues/26) use moment().utcOffset
+- [**#22**](https://github.com/creativelive/mdchangelog/issues/22) Dependent logs
 - [**#18**](https://github.com/creativelive/mdchangelog/issues/18) Not working
 - [**#12**](https://github.com/creativelive/mdchangelog/issues/12) add code quality checks
-- [**#5**](https://github.com/creativelive/mdchangelog/issues/5) don&#39;t generate a release if no issues updated
+- [**#5**](https://github.com/creativelive/mdchangelog/issues/5) don't generate a release if no issues updated
 - [**#1**](https://github.com/creativelive/mdchangelog/issues/1) generate changelog for milestones, issues and (optionally) commits
-
